@@ -60,7 +60,7 @@ body {
 
 /* Col-left */
 
-.main-content .col-left{
+.main-content .col-left {
     flex-basis: 215px;
     background: #000;
 }
@@ -76,7 +76,6 @@ body {
 .account {
     flex-basis: 15%;
 }
-
 
 /* Col-right */
 
@@ -129,7 +128,6 @@ body {
     margin: 15px;
 }
 
-
 /*  Music-player */
 
 .music-player{
@@ -145,3 +143,38 @@ body {
 .player-bar{
     flex-basis: 60%
 }
+
+/* MEDIAQUERY 1024px */
+
+@media screen and (max-width: 1024px){
+    
+    /* Music-data-content */
+    .music-data-content .recently-played,
+    .music-data-content .created-for-user {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .recently-played .placeholder-box{
+        flex-basis: calc(100% / 4);
+
+    }
+}
+
+/* MEDIAQUERY  650px */
+
+@media screen and (max-width: 650.4px) /*? il 0.4 è custom per il mio monitor che altrimenti non mi fa scattare la mediaquery se la imposto a 650px interi */
+{
+    /* col-left */
+    .main-content .col-left {
+    flex-basis: 20px;
+    background: #000;
+}
+
+    /* Music-data-content */
+    .recently-played .placeholder-box{
+        flex-basis: 40%;
+    }
+}
+
+
