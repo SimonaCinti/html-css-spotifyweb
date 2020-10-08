@@ -34,6 +34,10 @@ body {
     justify-content: center 
 }
 
+.flex.justify-between{
+    justify-content: space-between;
+}
+
 .flex.align-center { 
     align-items: center 
 }
@@ -88,6 +92,7 @@ body {
 
 .col-right .upgrade-bar {
     text-align: right;
+    padding: 15px 30px;
 }
 
 /* Col-right | Music-data-content */
@@ -110,11 +115,20 @@ body {
 
 .music-data-content .recently-played,
 .music-data-content .created-for-user{
-    height: 280px;
     width: 100%;
     background: hsl(69, 10%, 35%);
     margin-bottom: 15px;
+    padding: 10px;
+    justify-content: flex-start;
 }
+
+.recently-played .placeholder-box {
+    background: red;
+    height: 150px;
+    flex-basis: calc(100% / 6);
+    margin: 15px;
+}
+
 
 /*  Music-player */
 
