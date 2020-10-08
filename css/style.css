@@ -99,7 +99,6 @@ body {
     position: absolute;
     overflow-y: auto;
     padding: 80px 15px 40px;
-    position: relative;
 }
 
 .music-data-content .nav-bar{
@@ -107,6 +106,14 @@ body {
     width: 50%;
     background: #583131;
     margin: 15px auto;
+}
+
+.music-data-content .recently-played,
+.music-data-content .created-for-user{
+    height: 280px;
+    width: 100%;
+    background: hsl(69, 10%, 35%);
+    margin-bottom: 15px;
 }
 
 /*  Music-player */
