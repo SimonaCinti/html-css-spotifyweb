@@ -8,7 +8,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* Containers */
+/* Containers | Flex */
 
 .main-container {
     display: flex;
@@ -17,6 +17,7 @@ body {
 }
 
 .main-content{
+    display: flex;
     background: #080b11;
     flex-grow: 1;
 }
@@ -24,4 +25,35 @@ body {
 .music-player{
     background: #272727;
     flex-basis: 80px;
+}
+
+.main-content .col-left{
+    flex-basis: 215px;
+    background: #000;
+}
+
+.main-content .col-right{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    position: relative;
+}
+
+.col-right .upgrade-bar{
+    height: 80px;
+    width: 100%;
+    background: hsla(220, 85%, 43%, 0.521);
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 1;
+}
+
+.col-right .music-data-content{
+    background: #141921;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow-y: auto;
+    padding: 80px 15px 40px;
 }
