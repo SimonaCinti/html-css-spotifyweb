@@ -7,3 +7,21 @@ box-sizing: border-box;
 body {
     font-family: 'Lato', sans-serif;
 }
+
+/* Containers */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-content{
+    background: #080b11;
+    flex-grow: 1;
+}
+
+.music-player{
+    background: #272727;
+    flex-basis: 80px;
+}
