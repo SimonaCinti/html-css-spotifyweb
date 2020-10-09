@@ -248,12 +248,14 @@ ul.side-playlist li:first-child a::before{
     .hidden-650px {
         display: none;
     }
+
     /* col-left */
     .main-content .col-left{
         flex-basis: 45px;
         background-color: black;
     }
 
+    /* col-left | side-nav-list */
     .side-menu {
         padding-left: 8px;
         margin-top: 8px;
@@ -262,6 +264,18 @@ ul.side-playlist li:first-child a::before{
     .side-menu img{
         max-width: 25px;
         margin-bottom: 8px;
+    }
+    /*  col-left | side-nav-bottom */
+
+     .account {
+         flex-basis: 11%;
+     }   
+    .install-app {
+        border: none;
+        padding-bottom: 12px;
+    }
+    .install-app a i {
+        padding-right: 0;
     }
 
     /* Music-data-content */
