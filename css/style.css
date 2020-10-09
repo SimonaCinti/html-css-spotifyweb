@@ -9,7 +9,6 @@ body {
     color: white;
 }
 
-
 /* Utilities */
 
 .pd-15 {
@@ -104,12 +103,14 @@ body {
     justify-content: space-between;
 }
 
-.song-name {
-    flex-basis: 18%
+.song-name,
+.volume-bar {
+    flex-basis: 20%;
+    background: blue;
 }
 
 .player-bar{
-    flex-basis: 60%
+    flex-basis: 50%;
 }
 
 /* MEDIAQUERY 1024px */
