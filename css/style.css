@@ -12,7 +12,8 @@ body {
 /* Tipografy */
 
 h2 {
-    padding-bottom: 15px;
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
 
 a {
@@ -44,7 +45,6 @@ ul.side-playlist li a {
 ul.no-style {
     list-style: none;
 }
-
 
 .hidden {
     display: none;
@@ -214,23 +214,31 @@ ul.side-playlist li:first-child a::before{
 
 .music-info-list li a{
     font-size: 13px;
-    color: #616469;
+    color: #6c6e72;
 }
 
 
-
-
-/*  */
+/* Col-right | Music-data-content | recently played */
 
 .music-data-content .recently-played,
 .music-data-content .created-for-user{
     width: 100%;
     background: hsl(69, 10%, 35%);
     margin-bottom: 15px;
-    padding: 10px;
     justify-content: flex-start;
 }
 
+.recently-played .album {
+    flex-basis: calc(100% : 6);
+}
+
+.album img {
+    width: 100%;    
+}
+
+.album
+
+/* ---------------------- */
 .recently-played .placeholder-box {
     background: red;
     height: 150px;
@@ -320,6 +328,8 @@ ul.side-playlist li:first-child a::before{
 
     .music-info-list li {
         padding-right: 40px;
+        display: inline-block;
+        margin-bottom: 25px;
         
     }
 
