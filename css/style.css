@@ -16,9 +16,17 @@ h2 {
     padding-bottom: 25px;
 }
 
+p {
+    color: #6c6e72;
+}
+
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.small {
+    font-size: 12px;
 }
 
 ul.side-nav-list li a,
@@ -71,6 +79,8 @@ ul.no-style {
     top: 15px;
     right: 15px;
     transition:  all 1s;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .btn-upgrade:hover{
@@ -236,24 +246,29 @@ ul.side-playlist li:first-child a::before{
 }
 
 p.album-title {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: white;
 }
 
 p.album-author{
-        font-size: 10px;
+        font-size: 12px;
         color: #6c6e72;
 }
 
-/* ---------------------- */
-.recently-played .placeholder-box {
-    background: red;
-    height: 150px;
-    flex-basis: calc(100% / 6);
-    margin: 15px;
+/* Col-right | Music-data-content | Created for you */
+
+.music-text-area h2,
+.music-text-area p {
+    padding-bottom: 10px;
 }
+
+.created-for-user ul li {
+    margin-right: 10px;
+}
+
 
 /*  Music-player */
 
