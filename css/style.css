@@ -269,6 +269,13 @@ p.album-author{
     margin-right: 10px;
 }
 
+/* Col-right | Music-data-content | Popular artist */
+
+.popular-artist ul li {
+    padding-right: 10px;
+    border-radius: 100%;
+    background: red;
+}
 
 /*  Music-player */
 
