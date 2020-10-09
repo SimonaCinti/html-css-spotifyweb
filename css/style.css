@@ -11,10 +11,6 @@ body {
 
 /* Tipografy */
 
-li {
-    text-transform: capitalize;
-}
-
 a {
     text-decoration: none;
 }
@@ -57,12 +53,15 @@ ul.side-nav-list{
 
 ul.side-nav-list li {
     padding-bottom: 8px;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
 .side-nav-list img{
     max-width: 25px;
     vertical-align: middle;
     opacity: 0.6;
+    margin-right: 5px;
 }
 
 /* Col-right */
