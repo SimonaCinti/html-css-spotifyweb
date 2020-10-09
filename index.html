@@ -21,7 +21,7 @@
             <div class="main-content flex grow-1">
                 <!-- col-left -->
                 <section class="col-left flex column">
-                    <div class="side-menu left-menu pd-15">
+                    <section class="side-menu left-menu pd-15 hidden-650px">
                         <!-- Logo -->
                         <img class="logo-full" src="./img/logo.svg" alt="logo spotify">
                         <!-- side-nav-list -->
@@ -61,9 +61,9 @@
                             <li> <a href="#">Nome Playlist</a> 
                             </li>
                         </ul>
-                    </div>
+                    </section>
                     <!-- side-nav-bottom -->
-                    <div class="account pd-15">
+                    <section class="account pd-15 hidden-650px">
                         <div class="install-app text-lowgrey">
                             <a class="text-lowgrey" href="#"><i class="far fa-arrow-alt-circle-down"></i>Installa app</a>
                         </div>
@@ -73,8 +73,33 @@
                             </div>
                             <h4>John Doe</h4>
                         </div>
-                    </div>
+                    </section>
+
+                    <!--! Display Only max-width 650px -->
+                    <section class="side-menu left-menu hidden">
+                       <img src="./img/logo-small.svg" alt="logo small">
+                       <!-- side-nav-list -->
+                        <ul class="side-nav-list no-style">
+                            <li>
+                                <a href="#">
+                                    <img class="home" src="./img/home.svg" alt="home">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./img/search.svg" alt="search">  
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./img/libreria.svg" alt="libreria">
+                                </a>
+                            </li>
+                        </ul> 
+                    </section>
+                    <!-- side-nav-bottom -->
+
                 </section>
+
                 <!-- col-right -->
                 <section class="col-right flex grow-1">
                     <!-- upgrade bar -->

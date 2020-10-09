@@ -40,6 +40,10 @@ ul.no-style {
     list-style: none;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Containers | Flex */
 
 .main-container {
@@ -214,10 +218,11 @@ ul.side-playlist li:first-child a::before{
     flex-basis: 50%;
 }
 
-/* MEDIAQUERY 1024px */
+/*! MEDIAQUERY 1024px */
 
 @media screen and (max-width: 1024px){
     
+
     /* Music-data-content */
     .music-data-content .recently-played,
     .music-data-content .created-for-user {
@@ -231,15 +236,33 @@ ul.side-playlist li:first-child a::before{
     }
 }
 
-/* MEDIAQUERY  650px */
+/*! MEDIAQUERY  650px */
 
 @media screen and (max-width: 650.4px) /*? il 0.4 è custom per il mio monitor che altrimenti non mi fa scattare la mediaquery se la imposto a 650px interi */
 {
+    .hidden {
+        display: block;
+    }
+
+    /* Utilities */
+    .hidden-650px {
+        display: none;
+    }
     /* col-left */
-    .main-content .col-left {
-    flex-basis: 20px;
-    background: #000;
-}
+    .main-content .col-left{
+        flex-basis: 45px;
+        background-color: black;
+    }
+
+    .side-menu {
+        padding-left: 8px;
+        margin-top: 8px;
+    }
+
+    .side-menu img{
+        max-width: 25px;
+        margin-bottom: 8px;
+    }
 
     /* Music-data-content */
     .recently-played .placeholder-box{
