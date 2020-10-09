@@ -5,11 +5,15 @@ box-sizing: border-box;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
 /* Tipografy */
+
+h2 {
+    padding-bottom: 15px;
+}
 
 a {
     text-decoration: none;
@@ -41,8 +45,13 @@ ul.no-style {
     list-style: none;
 }
 
+
 .hidden {
     display: none;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Buttons */
@@ -192,12 +201,26 @@ ul.side-playlist li:first-child a::before{
     padding: 80px 15px 40px;
 }
 
+/* Col-right | Music-data-content | top-nav-bar */
+
 .music-data-content .nav-bar{
-    height: 80px;
-    width: 50%;
-    background: #583131;
     margin: 15px auto;
 }
+
+.music-info-list li {
+    display: inline;
+    padding-right: 14px;
+}
+
+.music-info-list li a{
+    font-size: 13px;
+    color: #616469;
+}
+
+
+
+
+/*  */
 
 .music-data-content .recently-played,
 .music-data-content .created-for-user{
