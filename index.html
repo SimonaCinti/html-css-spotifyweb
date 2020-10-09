@@ -18,10 +18,10 @@
     <div class="app">
         <div class="main-container flex column">
             <!-- Main-Content -->
-            <div class="main-content flex grow-1">
+            <main class="main-content flex grow-1">
                 <!-- col-left -->
                 <section class="col-left flex column">
-                    <section class="side-menu left-menu pd-15 hidden-650px">
+                    <section class="side-menu left-menu grow-1 pd-15 hidden-650px">
                         <!-- Logo -->
                         <img class="logo-full" src="./img/logo.svg" alt="logo spotify">
                         <!-- side-nav-list -->
@@ -74,9 +74,8 @@
                             <h4>John Doe</h4>
                         </div>
                     </section>
-
                     <!--! Display Only max-width 650px -->
-                    <section class="side-menu left-menu hidden">
+                    <section class="side-menu left-menu grow-1 hidden">
                        <img src="./img/logo-small.svg" alt="logo small">
                        <!-- side-nav-list -->
                         <ul class="side-nav-list no-style">
@@ -113,7 +112,7 @@
                 <section class="col-right flex grow-1">
                     <!-- upgrade bar -->
                     <div class="upgrade-bar">
-                        lorem
+                        <div class="btn btn-upgrade">EFFETTUA L'UPGRADE  </div>                   
                     </div>
                     <!-- music-data-content -->
                     <div class="music-data-content">
@@ -137,7 +136,7 @@
                         </div>
                     </div>
                 </section>
-            </div>
+            </main>
             <!-- Music-player -->
             <footer class="music-player flex">
                 <!-- song name -->
