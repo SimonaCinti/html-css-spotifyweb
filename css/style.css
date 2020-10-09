@@ -9,6 +9,20 @@ body {
     color: white;
 }
 
+/* Tipografy */
+
+li {
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-lowgrey {
+    color: #5f5f5f;
+}
+
 /* Utilities */
 
 .pd-15 {
@@ -25,13 +39,33 @@ body {
     background: #080b11;
 }
 
-/* Col-left */
+/* Col-left  Side-menu*/
 
 .main-content .col-left {
-    flex-basis: 215px;
+    flex-basis: 230px;
     background: #000;
 }
 
+.side-menu .logo-full {
+    max-width: 130px;
+    margin-bottom: 15px;
+}
+
+ul.side-nav-list{
+    list-style: none;
+}
+
+ul.side-nav-list li {
+    padding-bottom: 8px;
+}
+
+.side-nav-list img{
+    max-width: 25px;
+    vertical-align: middle;
+    opacity: 0.6;
+}
+
+/* Col-right */
 .main-content .col-right{
     position: relative;
 }
