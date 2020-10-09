@@ -77,13 +77,25 @@ ul.side-nav-list li {
 }
 
 ul.side-playlist li {
-    padding-bottom: 8px;
+    padding-bottom: 10px;
 }
 
 ul.side-playlist li:first-child a {
-    font-size: 15px;
+    font-size: 14px;
 }
 
+ul.side-playlist li:first-child a::before{
+    content: '\0002b'; /*? reminder per me: u+ si traduce in \ per unicode */
+    text-align: center;
+    font-size: 26px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin: 10px 10px 10px auto;
+    color: black;
+    background-color: #999999;
+}
 
 
 
