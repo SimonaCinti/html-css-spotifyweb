@@ -32,6 +32,10 @@ ul.side-playlist li a {
     padding: 15px;
 }
 
+.inline-block{
+    display: inline-block;
+}
+
 ul.no-style {
     list-style: none;
 }
@@ -72,12 +76,13 @@ ul.side-nav-list li {
 /* Col-left | side-nav-playlist */
 
 .side-menu h4 {
-    padding-top: 8px;
+    padding-top: 24px;
     padding-bottom: 8px;
+    font-size: 14;
 }
 
 ul.side-playlist li {
-    padding-bottom: 10px;
+    padding-bottom: 14px;
 }
 
 ul.side-playlist li:first-child a {
@@ -97,8 +102,35 @@ ul.side-playlist li:first-child a::before{
     background-color: #999999;
 }
 
+/* Col-left | side-nav-bottom */
 
+.install-app{
+    font-size: 13px;
+    border-bottom: 1px solid;
+    padding-bottom: 8px;
+    letter-spacing: 1px;
+}
 
+.install-app i{
+    padding-right: 8px;
+}
+
+.profile{
+    margin-top: 8px;
+}
+
+.profile-image {
+    height: 25px;
+    background: #999999;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-basis: 25px;
+}
+
+.profile h4 {
+    flex-basis: 80%;
+    line-height: 25px;
+}
 
 /* Col-right */
 .main-content .col-right{
