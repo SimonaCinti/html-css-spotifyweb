@@ -316,6 +316,13 @@ ul.side-playlist li:first-child a::before{
         padding-right: 0;
     }
 
+    /* Col-right | Music-data-content | top-nav-bar */
+
+    .music-info-list li {
+        padding-right: 40px;
+        
+    }
+
     /* Music-data-content */
     .recently-played .placeholder-box{
         flex-basis: 40%;
