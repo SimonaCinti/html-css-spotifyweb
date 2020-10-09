@@ -1,0 +1,29 @@
+/* Flex Utilities */
+
+.flex {
+    display: flex;
+}
+
+.flex.column {
+    flex-direction: column;
+}
+
+.flex.row { 
+    flex-flow: row 
+}
+
+.flex.justify-center { 
+    justify-content: center 
+}
+
+.flex.justify-between{
+    justify-content: space-between;
+}
+
+.flex.align-center { 
+    align-items: center 
+}
+
+.flex.grow-1{
+    flex-grow: 1;
+}
