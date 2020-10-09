@@ -272,7 +272,7 @@ p.album-author{
 /* Col-right | Music-data-content | Popular artist */
 
 .popular-artist ul li {
-    padding-right: 10px;
+    margin-right: 10px;
     border-radius: 100%;
     background: red;
 }
