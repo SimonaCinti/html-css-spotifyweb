@@ -235,6 +235,18 @@ ul.side-playlist li:first-child a::before{
     max-width: 100%;
 }
 
+p.album-title {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p.album-author{
+        font-size: 10px;
+        color: #6c6e72;
+}
+
 /* ---------------------- */
 .recently-played .placeholder-box {
     background: red;
@@ -264,18 +276,15 @@ ul.side-playlist li:first-child a::before{
 /*! MEDIAQUERY 1024px */
 
 @media screen and (max-width: 1024px){
-    
 
-    /* Music-data-content */
-    .music-data-content .recently-played,
-    .music-data-content .created-for-user {
+    .album-list.flex {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
     }
-
-    .recently-played .placeholder-box{
-        flex-basis: calc(100% / 4);
-
+    .album-list  li{
+        flex-basis: calc(100% / 4 - 10px);
+        margin-top: 10px;
+        margin-right: 10px;
     }
 }
 
