@@ -340,8 +340,10 @@ p.album-author{
     }
 
     /* Music-data-content */
-    .recently-played .placeholder-box{
-        flex-basis: 40%;
+    .album-list  li{
+        flex-basis: calc(100% / 2 - 10px);
+        margin-top: 10px;
+        margin-right: 10px;
     }
 }
 
