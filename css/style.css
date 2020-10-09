@@ -51,15 +51,15 @@ ul.no-style {
     background-color: black;
     border-radius: 100px;
     width: 200px;
-    padding: 10px;
+    padding: 11px 0;
     text-align: center;
 }
 
 .btn-upgrade{
-    font-size: 13px;
+    font-size: 12px;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 15px;
+    right: 15px;
 
 }
 
