@@ -13,6 +13,7 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 ul.side-nav-list li a,
@@ -65,10 +66,6 @@ ul.no-style {
 
 .btn-upgrade:hover{
     transform: scale(1.1);
-}
-
-.btn a {
-    color: inherit;
 }
 
 /* Containers | Flex */
