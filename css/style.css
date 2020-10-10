@@ -360,6 +360,38 @@ p.album-author{
     height: 5px;
     border: 1px solid;
     border-radius: 100px;
+    position: relative;
+}
+
+.player-length .visual-length:before{
+    width: 15%;
+    content: '';
+    background-color: white;
+    border-radius: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.player-length .visual-length:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: white;
+    font-size: 10px;
+    content: '\f111';
+    position: absolute;
+    top: -5px;
+    left: 13%;
+    display: none;
+}
+
+.player-length .visual-length:hover:before {
+    background-color: greenyellow;
+}
+
+.player-length .visual-length:hover:after{
+    display: block;
 }
 
 .volume-bar i {
