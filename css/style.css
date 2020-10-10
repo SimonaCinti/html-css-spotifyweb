@@ -95,6 +95,46 @@ ul.no-style {
     transform: scale(1.1);
 }
 
+/* Hover Effect Music Bar */
+
+.player-length .visual-length::before, 
+.volume-bar .volume-length::before {
+	width: 15%;
+	height: 4px;
+	content: '';
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 100px;
+	position: absolute;
+	top: -0.6px;
+	left: 0;
+}
+
+.player-length .visual-length:after,
+.volume-bar .volume-length:after{
+    height: 100%;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: white;
+    font-size: 10px;
+    content: '\f111';
+    position: absolute;
+    top: -4px;
+    left: 14%;
+    display: none;
+}
+
+.player-length .visual-length:hover:before,
+.volume-bar .volume-length:hover:before {
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+
+.player-length .visual-length:hover:after,
+.volume-bar .volume-length:hover:after{
+    display: block;
+}
+
 /* Containers | Flex */
 
 .main-container {
@@ -363,36 +403,7 @@ p.album-author{
     position: relative;
 }
 
-.player-length .visual-length:before{
-    width: 15%;
-    content: '';
-    background-color: white;
-    border-radius: 100px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
-.player-length .visual-length:after{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: white;
-    font-size: 10px;
-    content: '\f111';
-    position: absolute;
-    top: -5px;
-    left: 13%;
-    display: none;
-}
-
-.player-length .visual-length:hover:before {
-    background-color: greenyellow;
-}
-
-.player-length .visual-length:hover:after{
-    display: block;
-}
 
 .volume-bar i {
     margin-right: 10px;
@@ -405,6 +416,7 @@ p.album-author{
     height: 5px;
     border: 1px solid;
     border-radius: 100px;
+    position: relative;
 }
 
 /*! MEDIAQUERY 1024px */
