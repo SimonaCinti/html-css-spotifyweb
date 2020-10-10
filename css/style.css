@@ -362,10 +362,18 @@ p.album-author{
     border-radius: 100px;
 }
 
-.volume-bar {
-    background-color: #3b2b20;
+.volume-bar i {
+    margin-right: 10px;
+    font-size: 12px;
 }
 
+.volume-bar .volume-length{
+    flex-basis: calc(80% - 10px);
+    background-color: #5f5f5f;
+    height: 5px;
+    border: 1px solid;
+    border-radius: 100px;
+}
 
 /*! MEDIAQUERY 1024px */
 
@@ -442,6 +450,18 @@ p.album-author{
         flex-basis: calc(100% / 2 - 10px);
         margin-top: 10px;
         margin-right: 10px;
+    }
+
+    /* FOOTER | Music-player | Playerbar */
+    .song-name, .volume-bar {
+	    flex-basis: 30%;
+    }
+    .player-length .visual-length {
+        flex-basis: 75%;
+        background-color: #5f5f5f;
+        height: 5px;
+        border: 1px solid;
+        border-radius: 100px;
     }
 }
 
