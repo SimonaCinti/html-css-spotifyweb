@@ -20,6 +20,10 @@ p {
     color: #6c6e72;
 }
 
+footer p {
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -330,10 +334,38 @@ p.album-author{
 }
 
 
-/* Playerbar */
+/* FOOTER | Music-player | Playerbar */
 .player-bar{
     flex-basis: 50%;
 }
+
+
+.player-control i {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.player-control i:nth-child(3){
+    font-size: 26px;
+    position: relative;
+    bottom: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.player-length .visual-length{
+    flex-basis: 80%;
+    background-color: #5f5f5f;
+    height: 5px;
+    border: 1px solid;
+    border-radius: 100px;
+}
+
+.volume-bar {
+    background-color: #3b2b20;
+}
+
 
 /*! MEDIAQUERY 1024px */
 
