@@ -346,12 +346,12 @@ p.album-author{
     display: inline-block;
 }
 
-.player-control i:nth-child(3){
-    font-size: 26px;
-    position: relative;
-    bottom: 4px;
-    padding-left: 25px;
-    padding-right: 25px;
+.player-control i:nth-child(3) {
+	font-size: 28px;
+	position: relative;
+	bottom: 4px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .player-length .visual-length{
