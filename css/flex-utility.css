@@ -1,5 +1,7 @@
 /* Flex Utilities */
 
+
+/* Flex Direction */
 .flex {
     display: flex;
 }
@@ -12,6 +14,9 @@
     flex-flow: row 
 }
 
+
+/* Flex Justify-Content */
+
 .flex.justify-center { 
     justify-content: center 
 }
@@ -20,8 +25,17 @@
     justify-content: space-between;
 }
 
+.flex.justify-start{
+    justify-content: flex-start;
+}
+
+/* Flex Items */
 .flex.align-center { 
     align-items: center 
+}
+
+.flex.self-center{
+    align-self: center;
 }
 
 .grow-1{
