@@ -29,12 +29,13 @@
     justify-content: flex-start;
 }
 
-/* Flex Items */
 .flex.align-center { 
     align-items: center 
 }
 
-.flex.self-center{
+/* Flex Items */
+
+.self-center{
     align-self: center;
 }
 
