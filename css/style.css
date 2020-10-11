@@ -155,7 +155,7 @@ ul.no-style {
 
 .img-overlay .img-overlay-text{
     color: white;
-    font-size: 3em;
+    font-size: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -520,7 +520,8 @@ p.album-author{
         flex-wrap: wrap;
         justify-content: flex-start;
     }
-    .album-list  li{
+    .album-list  li,
+    .popular-artist ul li{
         flex-basis: calc(100% / 4 - 10px);
         margin-top: 10px;
         margin-right: 10px;
@@ -583,7 +584,8 @@ p.album-author{
     }
 
     /* Music-data-content */
-    .album-list  li{
+    .album-list li,
+    .popular-artist ul li{
         flex-basis: calc(100% / 2 - 10px);
         margin-top: 10px;
         margin-right: 10px;
