@@ -524,6 +524,10 @@ p.album-author{
         max-width: 25px;
         margin-bottom: 8px;
     }
+
+    ul.side-nav-list li a{
+       padding-left: 0; 
+    }
     /*  col-left | side-nav-bottom */
 
      .account {
