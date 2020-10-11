@@ -539,6 +539,7 @@ p.album-author{
     }
     .install-app a i {
         padding-right: 0;
+        font-size: 25px;
     }
 
     .profile{
