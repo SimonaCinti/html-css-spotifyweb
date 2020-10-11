@@ -172,6 +172,7 @@ ul.side-nav-list li {
 
 ul.side-nav-list li a:focus {
     border-left: 2px solid greenyellow;
+    color: white;
 }
 
 .side-nav-list img{
@@ -265,7 +266,6 @@ ul.side-playlist li:first-child a::before{
     z-index: 1;
 }
 
-
 /* Col-right | Music-data-content */
 
 .col-right .music-data-content{
@@ -289,10 +289,15 @@ ul.side-playlist li:first-child a::before{
 }
 
 .music-info-list li a{
+    padding-bottom: 2px;
     font-size: 13px;
     color: #6c6e72;
 }
 
+.music-info-list li a:focus {
+    border-bottom: 2px solid greenyellow;
+    color: white;
+}
 
 /* Col-right | Music-data-content | recently played */
 
