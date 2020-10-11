@@ -1,0 +1,39 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    cursor: default;
+}
+
+
+/* Generic Utilities */
+
+.pd-15 {
+    padding: 15px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+ul.no-style {
+    list-style: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Font Utilities */
+
+.text-white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
