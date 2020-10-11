@@ -331,10 +331,6 @@ ul.side-playlist li:first-child a::before{
 
 /* Col-right | Music-data-content | recently played */
 
-.music-data-content p:not(.description):hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
 
 .music-data-content .recently-played,
 .music-data-content .created-for-user{
@@ -362,6 +358,16 @@ p.album-title {
 p.album-author{
         font-size: 12px;
         color: #6c6e72;
+}
+
+.music-data-content .album-title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.music-data-content .album-author:hover{
+    color: white;
+    cursor: pointer;
 }
 
 .cover{ 
