@@ -51,6 +51,10 @@ ul.side-playlist li a {
     color: white;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Utilities */
 
 .pd-15 {
@@ -67,10 +71,6 @@ ul.no-style {
 
 .hidden {
     display: none;
-}
-
-.text-center {
-    text-align: center;
 }
 
 /* Buttons */
@@ -100,8 +100,7 @@ ul.no-style {
 
 /* Hover Effect | Music Bar */
 
-.player-length .visual-length::before, 
-.volume-bar .volume-length::before {
+.bar-hover-effect::before{
 	width: 15%;
 	height: 4px;
 	content: '';
@@ -113,8 +112,7 @@ ul.no-style {
     left: 0;
 }
 
-.player-length .visual-length:after,
-.volume-bar .volume-length:after{
+.bar-hover-effect::after{
     height: 100%;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
@@ -127,22 +125,19 @@ ul.no-style {
     display: none;
 }
 
-.player-length .visual-length:hover:before,
-.volume-bar .volume-length:hover:before {
+.bar-hover-effect:hover:before{
     background-color: greenyellow;
     border-color: greenyellow;
 }
 
-.player-length .visual-length:hover:after,
-.volume-bar .volume-length:hover:after{
+ .bar-hover-effect:hover:after{
     display: block;
 }
 
 
 /* Hover Effect | Album */
 
-.cover .img-overlay,
-.round-cover .img-overlay{
+.img-overlay{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -153,7 +148,7 @@ ul.no-style {
     transition: all 0.5s ease-in-out;
 }
 
-.img-overlay .img-overlay-text{
+.img-overlay-text{
     color: white;
     font-size: 50px;
     position: absolute;
@@ -198,7 +193,6 @@ ul li:hover a,
 ul.side-nav-list li {
     padding-bottom: 8px;
 }
-
 
 ul.side-nav-list li a:focus {
     border-left: 2px solid greenyellow;
