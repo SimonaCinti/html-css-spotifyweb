@@ -331,6 +331,11 @@ ul.side-playlist li:first-child a::before{
 
 /* Col-right | Music-data-content | recently played */
 
+.music-data-content p:not(.description):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .music-data-content .recently-played,
 .music-data-content .created-for-user{
     width: 100%;
@@ -362,8 +367,6 @@ p.album-author{
 .cover{ 
     position: relative;
 }
-
-
 
 /* Col-right | Music-data-content | Created for you */
 
