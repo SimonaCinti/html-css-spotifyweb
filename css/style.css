@@ -148,6 +148,11 @@ ul.no-style {
     background: #080b11;
 }
 
+ul li:hover a,
+.install-app:hover a{
+    color: white;
+}
+
 /* Col-left | side-nav-list*/
 
 .main-content .col-left {
@@ -164,9 +169,6 @@ ul.side-nav-list li {
     padding-bottom: 8px;
 }
 
-ul.side-nav-list li:hover a{
-    color: white;
-}
 
 ul.side-nav-list li a:focus {
     border-left: 2px solid greenyellow;
@@ -240,6 +242,11 @@ ul.side-playlist li:first-child a::before{
 .profile h4 {
     flex-basis: 80%;
     line-height: 25px;
+}
+
+.profile h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* Col-right */
