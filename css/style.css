@@ -98,6 +98,25 @@ ul.no-style {
     transform: scale(1.1);
 }
 
+/* Hover Effect | Generic */
+
+.underline-hover:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-white-hover:hover,
+.side-playlist.no-style li a:hover,
+.side-nav-list li a:hover,
+.music-info-list li a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+ul.side-playlist li:first-child a:hover::before{
+    background-color:white;
+}
+
 /* Hover Effect | Music Bar */
 
 .bar-hover-effect::before{
@@ -171,11 +190,6 @@ ul.no-style {
 
 .main-content{
     background: #080b11;
-}
-
-ul li:hover a,
-.install-app:hover a{
-    color: white;
 }
 
 /* Col-left | side-nav-list*/
@@ -269,11 +283,6 @@ ul.side-playlist li:first-child a::before{
     line-height: 25px;
 }
 
-.profile h4:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 /* Col-right */
 
 .main-content .col-right{
@@ -354,16 +363,6 @@ p.album-author{
         color: #6c6e72;
 }
 
-.music-data-content .album-title:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.music-data-content .album-author:hover{
-    color: white;
-    cursor: pointer;
-}
-
 .cover{ 
     position: relative;
 }
@@ -426,6 +425,7 @@ p.album-author{
 .song-name-playing p:first-child {
     color: white;
     font-size: 13px;
+    margin-bottom: 2px;
 }
 
 .icon-playing{
@@ -435,11 +435,6 @@ p.album-author{
 .icon-playing i {
     margin-left: 15px;
     color: #6c6e72;
-}
-
-.song-name-playing p:first-child:hover{
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 .song-name-playing p:nth-child(2):hover,
