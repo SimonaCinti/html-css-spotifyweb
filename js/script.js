@@ -1,3 +1,5 @@
 // Javascript
 
-document.getElementById('recent').innerHTML = 'Your Playlist'
+document.getElementById('recent').innerHTML = 'Your Playlist';
+
+console.log("Hello from your console!");
